@@ -1,0 +1,37 @@
+name: spacex_example
+description: Spacex Example.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  cached_network_image: ^3.2.0
+  bloc: ^8.0.3
+  cupertino_icons: ^1.0.2
+  equatable: ^2.0.3
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+  flutter_dotenv: ^5.0.2
+  get_it: ^7.2.0
+  json_annotation: ^4.4.0
+  logger: ^1.1.0
+  vexana: ^2.8.0
+
+dev_dependencies:
+  build_runner: ^2.1.10
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+  json_serializable: ^6.1.6
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
+
